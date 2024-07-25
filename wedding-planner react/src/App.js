@@ -32,7 +32,7 @@ function App() {
       <Navbar />
       <Routes>
         {/* Home */}
-        <Route path="/" element={<MainLayout />}/>
+        <Route path="https://wedding-planner-xl9d.vercel.app/" element={<MainLayout />}/>
           <Route path="/accommodation" element={<Accommodation />} />
           <Route path="invitation" element={<Invitation />} />
           <Route path="rsvp" element={<Rsvp />} />
