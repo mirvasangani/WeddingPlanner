@@ -32,39 +32,39 @@ function App() {
       <Navbar />
       <Routes>
         {/* Home */}
-        <Route path="https://wedding-planner-xl9d.vercel.app/" element={<MainLayout />}/>
+        <Route path="https://wedding-planner-xl9d.vercel.app" element={<MainLayout />}/>
           <Route path="/accommodation" element={<Accommodation />} />
-          <Route path="invitation" element={<Invitation />} />
-          <Route path="rsvp" element={<Rsvp />} />
+          <Route path="/invitation" element={<Invitation />} />
+          <Route path="/rsvp" element={<Rsvp />} />
           {/* Pages  */}
-          <Route path="about" element={<About />} />
-          <Route path="gallery" element={<Gallery />} />
-          <Route path="candles" element={<Candle />} />
-          <Route path="hotels" element={<Hotel />} />
-          <Route path="food" element={<Food />} />
-          <Route path="bouquets" element={<Bouquet />} />
-          <Route path="decoration" element={<Decoration />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/candles" element={<Candle />} />
+          <Route path="/hotels" element={<Hotel />} />
+          <Route path="/food" element={<Food />} />
+          <Route path="/bouquets" element={<Bouquet />} />
+          <Route path="/decoration" element={<Decoration />} />
 
           {/* {shop} */}
-          <Route path="shop" element={<Shop />} />
-          <Route path="cart" element={<Cart />} />
-          <Route path="checkout" element={<Checkout />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
 
           {/* {service} */}
-          <Route path="service" element={<Service />} />
-          <Route path="wedding-registry" element={<WeddingRegistry />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/wedding-registry" element={<WeddingRegistry />} />
 
           {/* blog */}
-          <Route path="latest-news" element={<LatestNews />} />
-          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="/latest-news" element={<LatestNews />} />
+          <Route path="/portfolio" element={<Portfolio />} />
 
           {/* team */}
-          <Route path="our-planners" element={<Ourplaner />} />
-          <Route path="groomsmen" element={<WeddingG />} />
-          <Route path="bridesmaids" element={<WeddingB />} />
+          <Route path="/our-planners" element={<Ourplaner />} />
+          <Route path="/groomsmen" element={<WeddingG />} />
+          <Route path="/bridesmaids" element={<WeddingB />} />
 
           {/* contact */}
-          <Route path="contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
       </Routes>
     <Footer/>
 
